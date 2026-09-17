@@ -1,1 +1,47 @@
-/* Add your styles here. */
+#top {
+    color: teal;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    background-color: #b1c6d9;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 28px;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.first_sec {
+    background-color: #ADD8E6;
+}
+
+.sec_sec {
+    background-color: #89CFF0;
+}
+
+.third_sec {
+    background-color: #58b2d6;
+}
+
+.baldy_pic {
+    max-width: 50%;
+}
